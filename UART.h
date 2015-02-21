@@ -17,11 +17,11 @@
 #include <stdint.h> //uint8_t
 #include <stdio.h>
 
-#define BAUD B4800
-#define SELECTED_UART "BB-UART2"
+#define BAUD B1200
+#define SELECTED_UART "BB-UART4"
 #define ENABLE_PATH "/sys/devices/bone_capemgr.9/slots"
 
-#define UART_PATH "/dev/ttyO2"
+#define UART_PATH "/dev/ttyO4"
 
 class UART {
 public:
